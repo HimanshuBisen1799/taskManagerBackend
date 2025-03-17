@@ -11,8 +11,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
     "http://localhost:5173",
-    "http://localhost:5174",
-    "https://taskmanagerbackend-ibu5.onrender.com",
+    "http://localhost:5175",
+    "http://localhost:5175",
+    "https://task-manager-frontend-lemon-seven.vercel.app",
   ];
 app.use(cors({
     origin: allowedOrigins,
